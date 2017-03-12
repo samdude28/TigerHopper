@@ -2,6 +2,8 @@ var mongoose = require("mongoose");
 
 var barSchema = mongoose.Schema({
     name: String,
+    username: String,
+    tweet: String,
     author: {
         id: {
             type: mongoose.Schema.Types.ObjectId,

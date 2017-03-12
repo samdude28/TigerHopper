@@ -4,19 +4,29 @@ var Bar = require('./models/bar'),
 
 var data = [ 
     {
-        name: 'Freds'
+        name: 'Freds',
+        username: 'Fredsbar',
+        tweet: 'this is a tweet'
     },
     {
-        name: 'Reggies'
+        name: 'Reggies',
+        username: 'ReggiesBR',
+        tweet: 'this is a tweet'
     },
     {
-        name: 'Bogies'
+        name: 'Bogies',
+        username: 'BogiesBR',
+        tweet: 'this is a tweet'
     },
     {
-        name: 'Mikes'
+        name: 'Mikes',
+        username: 'MikesNTigerland',
+        tweet: 'this is a tweet'
     },
     {
-        name: 'JLs'
+        name: 'JLs',
+        username: 'JLsPlaceBR',
+        tweet: 'this is a tweet'
     }
 ];
 

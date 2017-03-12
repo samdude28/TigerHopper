@@ -21,7 +21,7 @@ app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/public"));
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(flash());
-seedDB(); // seeds the database
+// seedDB(); // seeds the database
 
 // PASSPORT CONFIGURATION
 app.use(require("express-session")({
